@@ -8,13 +8,8 @@ const styles = StyleSheet.create({
   main: {
     flex: 1,
     backgroundColor: 'white',
-  },
-  mainContainer: {marginHorizontal: 20, marginTop: hp(5)},
-  focus: {
-    fontSize: 24,
-    marginTop: hp(5),
-    fontWeight: 'bold',
-    color: 'black',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 export default styles;
